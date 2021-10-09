@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+header{
+    background-image: url(cu23..jpeg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    
+}
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 25px;
+}
+
+ ul li{
+    display: inline-block;
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 5px,2px;
+    border: 1px white solid;
+    border-radius: 5px;
+    font-family: 'Noto Sans', sans-serif;
+}
+ul li a:hover{
+    background-color:white ;
+    color: black;
+    font-family: 'Noto Sans', sans-serif;
+
+}
+
+.xyz{
+    font-size: 48px;
+    font-family: 'Noto Sans', sans-serif;
+    color: white;
+    size: 100%;
+    height: 100vh;
+    font-family: 'Noto Sans', sans-serif;
+    
+}
+.abc{
+    color: white;
+    font-size: 24px;
+    text-align: right;
+  }
+.box{
+    display: block;
+    float: left;
+    width: 30%;
+    padding: 10px;
+    overflow: hidden;
+    border-radius: 5px;
+
+}
+img{
+    width: 100%;
+    border-radius: 5px;
+}
+img:hover{
+    transform: scale(2,2);
+    transition: 1s transform;
+    border-radius: 5px;
+
+}
+
+main{
+    margin-left: 50px;
+}
